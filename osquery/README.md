@@ -1,1 +1,1 @@
-# Osquery — Project OMNi Shield
+# osquery
