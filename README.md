@@ -22,7 +22,7 @@ It provides an end-to-end Detect → Triage → Resolve (D2R) pipeline by combin
 
 ## Architecture Overview
 
-```text
+```markdown
 [Telemetry: Osquery, Zeek, EDR, Identity, Cloud, Deception]
           ↓
    [Splunk ES (SIEM) + MLTK models]
@@ -57,9 +57,9 @@ omni-shield/
 └─ tools/                  # Parsers, collectors, helper scripts
 ```
 
-```
-Roadmap (high-level)
 
+## Roadmap (high-level)
+```
 Phase 0: Lab foundation (Splunk, FleetDM, Zeek, MITRE baseline)
 
 Phase 1: Baseline detections + Osquery pack + minimal playbook
@@ -74,8 +74,9 @@ Ongoing: Weekly retrain, monthly tuning, continuous purple-team exercises
 ```
 
 
+
+## Long-Term Vision
 ```
-Long-Term Vision
 
 Hardware and firmware attestation (TPM/HVI)
 
