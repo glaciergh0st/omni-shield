@@ -1,6 +1,6 @@
-# Project OMNi Shield — MITRE-Aligned Multi-Layered Defense System (MLDS)
+# OMNI Shield — MITRE-Aligned Multi-Layered Defense System (MLDS)
 
-**Project OMNi Shield** is a Splunk-led, MITRE ATT&CK–aligned multi-layered defense system.  
+**Project OMNI Shield** is a Splunk-led, MITRE ATT&CK–aligned multi-layered defense system.  
 It provides an end-to-end Detect → Triage → Resolve (D2R) pipeline by combining:
 
 - Splunk ES + SOAR + MLTK + AI (RAG) as the central defense hub  
