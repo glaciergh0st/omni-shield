@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Architecture — Project OMNi Shield
+=======
+>>>>>>> 77eb9c7a1269e567dd3ce7b4d436fbdcd2ce5b69
 # Project OMNi Shield — Architecture
 
 ## 1. Purpose
@@ -201,4 +204,7 @@ Its mission is to deliver an end-to-end **Detect → Triage → Resolve (D2R)** 
 - Post-quantum crypto readiness  
 - Autonomous SOC copilot (Splunk RAG powered)  
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 77eb9c7a1269e567dd3ce7b4d436fbdcd2ce5b69
