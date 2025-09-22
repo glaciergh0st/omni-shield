@@ -17,8 +17,9 @@ It provides an end-to-end Detect → Triage → Resolve (D2R) pipeline by combin
 - Continuously improve MITRE ATT&CK coverage with purple-team exercises  
 
 ---
-## Architecture Overview
 ```
+Architecture Overview
+
 [Telemetry: Osquery, Zeek, EDR, Identity, Cloud, Deception]
 ↓
 [Splunk ES (SIEM) + MLTK models]
@@ -30,10 +31,11 @@ It provides an end-to-end Detect → Triage → Resolve (D2R) pipeline by combin
 [Containment: EDR isolate, Palo Alto block, Okta disable, Velociraptor triage]
 ↓
 [Case Mgmt: ServiceNow / TheHive]
+```
 
 ---
-
-## Repository Structure
+```
+Repository Structure
 
 omni-shield/
 ├─ docs/               # Architecture, roadmap, MITRE matrix
@@ -46,13 +48,13 @@ omni-shield/
 ├─ infra/              # Terraform / Ansible for lab or enterprise scale
 ├─ labs/               # Adversary simulations (Atomic Red Team, Havoc, Caldera)
 └─ kpis/               # Splunk dashboards and reports
-
+```
 ---
-
-## Roadmap (high-level)
+```
+Roadmap (high-level)
 - Phase 0: Lab foundation (Splunk, FleetDM, Zeek, MITRE baseline)  
 - Phase 1: Baseline detections + Osquery pack + minimal playbook  
 - Phase 2: Beacon anomaly models + pipeline health checks  
 - Phase 3: Automated playbooks (Falcon isolate, Okta disable, Velociraptor triage)  
 - Phase 4: AI Assistant (RAG) + ATT&CK heatmaps + feedback loops
-
+```
