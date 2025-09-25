@@ -73,5 +73,5 @@ for dir in "${sub_dirs[@]}"; do
   touch "$dir/.gitkeep"
 done
 
-echo "✅ OMNi Shield repo structure synced: READMEs at top-level, .gitkeep in subfolders."
+echo "OMNi Shield repo structure synced: READMEs at top-level, .gitkeep in subfolders."
 
